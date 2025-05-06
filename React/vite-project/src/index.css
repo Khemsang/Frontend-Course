@@ -1,0 +1,14 @@
+@import url("https://fonts.googleapis.com/css2?family=Monomakh&family=Oswald:wght@200..700&display=swap");
+
+@import "tailwindcss";
+@custom-variant dark (&:where(.dark, .dark *));
+@theme {
+  --font-display: "Monomakh", system-ui;
+  --color-primary: #fe9808;
+  --color-secondary: #9333ea;
+}
+@layer components {
+  .container {
+    @apply max-w-6xl mx-auto;
+  }
+}

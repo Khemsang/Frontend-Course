@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    background-color: #f4f4f4;
+    overflow: hidden;
+}
+
+.container .data {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 300px;
+    background-color: red;
+    border-radius: 50%;
+    position: absolute;
+    top: 10%;
+    animation: bounce 2s infinite ease, move 5s infinite linear;
+}
+
+@keyframes bounce {
+    0%, 100% {
+        
+        background-color: aquamarine;
+    }
+    50% {
+        transform: translateY(400px);
+        background-color: fuchsia,;
+    }
+    75%{
+        background-color: brown;
+    }
+}
+
+@keyframes move {
+    0% {
+        left: 0;
+       
+    }
+    100% {
+        left: 100%;
+        background-color: yellow;
+    }
+}
+.anime {
+    position: absolute; 
+    transition: width 2s, height 4s;
+}
+.anime .data:hover {
+    width: 300px;
+    height: 300px;
+    background-color: red;
+
+.anime .data {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 300px;
+    background-color: red;
+    border-radius: 0;
+    position: absolute;
+    top: 10%;
+    left: 0; 
+    animation: anime 2s infinite ;
+    animation-timing-function: linear;
+    animation-direction: alternate;
+    animation-fill-mode: forwards;
+}
+
+@keyframes anime {
+    0% {
+        left: 0;
+        background-color: yellow;
+        transform: rotate(0deg);
+    }
+    50% {
+        background-color: greenyellow;
+        transform: rotate(90deg);
+    }
+    100% {
+        left: 100%;
+        background-color: magenta;
+        transform: rotate(360deg);
+    }
+}
+
+
+    

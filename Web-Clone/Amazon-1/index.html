@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+<div class="header">
+<nav>
+   <a href="#"><div class="logo"> </div></a> 
+
+    <div class="services">    
+           <a href="#"><i class="fa-solid fa-location-dot"></i></a> 
+         <div class="location">
+           <p>Deliver to</p>
+            <a href="#"><h3>Nepal</h3></a>
+          
+         </div>      
+    </div>
+
+    <div class="nav-search">
+        <div class="search-gategory">
+            <p>All</p>
+            <i class="fa-solid fa-caret-down"></i>
+        </div>
+        <input type="text" class="nav-input" placeholder="Search Amazon">
+        <div class="icon"><i class="fa-solid fa-magnifying-glass"></i></div>
+        
+    </div>
+
+    <div class="country-language">
+        <img style="height: 25px; width: 35px; margin-top:4px ;" src="data:image/png;base64,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">
+        <p>EN</p>
+        <div class="icon"><i class="fa-solid fa-caret-down"></i></div> 
+    </div>
+
+    <div class="sign">
+        <div class="sign-up"><p>Hello, sign in</p>
+            <h3>Account & Lists </h3>
+        </div>
+        
+        <i id="icon" class="fa-solid fa-caret-down"></i>
+    </div>
+    <div class="orders">
+        <p>Returns</p>
+        <h3>& Orders</h3>
+    </div>
+    <div class="cart-icon">
+        <i class="fa-solid fa-cart-plus" style="color: white; font-size: 35px;"></i>
+        <h3 style="margin-top: 10px;" >Cart</h3>
+    </div>
+   
+</nav>
+</div>
+
+<div class="nav-xshop">
+    <div class="menu">
+        <div class="icon"><i class="fa-solid fa-bars"></i></div>
+    <p>All</p>
+</div>
+<div class="xshop">
+    <div class="todays-deal"><a href="#">Today's Deals</a></div>
+    <div class="registry"><a href="#">Registry</a></div>
+    <div class="customer-services"><a href="#">Customer Services</a></div>
+    <div class="gift-cards"><a href="#">Gift Cards</a></div>
+    <div class="sell"><a href="#">Sell</a></div>   
+</div>
+    </div>
+    
+
+<div class="main-container">   
+<div class="landscape-image">
+    
+       <a herf="#"id="prev"><i class="fa-solid fa-chevron-left"></i> </a>
+       <a herf="#"id="next" ><i class="fa-solid fa-chevron-right"></i></a>  
+    <ul>
+        <img src="https://m.media-amazon.com/images/I/61AnASun+qL._SX3000_.jpg">
+        <img src="https://m.media-amazon.com/images/I/71Ie3JXGfVL._SX3000_.jpg"> 
+        <img src="https://m.media-amazon.com/images/I/61zAjw4bqPL._SX3000_.jpg">
+        <img src="https://m.media-amazon.com/images/I/61lwJy4B8PL._SX3000_.jpg">
+        <img src="https://m.media-amazon.com/images/I/81KkrQWEHIL._SX3000_.jpg">
+        <img src="https://m.media-amazon.com/images/I/71sC6R2WVsL._SX3000_.jpg">
+        <img src="https://m.media-amazon.com/images/I/61lR-+dUHyL._SX3000_.jpg">
+        <img src="https://images-eu.ssl-images-amazon.com/images/G/31/img23/Consumables/X-GL/Feb5/PC_Hero_1_3000._CB582457311_.jpg">
+        
+    </ul>
+</div>
+<div class="shopping-box">
+
+<div class="box-col"></div>
+<div class="box-col"></div>
+<div class="box-col"></div>
+<div class="box-col"></div>
+<div class="box-col"></div>
+<div class="box-col"></div>
+<div class="box-col"></div>
+<div class="box-col"></div>
+   
+    
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+ <script src="main.js"></script>   
+</body>
+</html>

@@ -1,0 +1,124 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: outfit;
+}
+body{
+    background-image: url(https://static.vecteezy.com/system/resources/previews/007/164/537/original/fingerprint-identity-sensor-data-protection-system-podium-hologram-blue-light-and-concept-free-vector.jpg);
+}
+.login{
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:800px ;
+    margin-bottom: 0px;
+    background-size: cover;  
+    column-gap: 0px;
+}
+form{
+    margin-top: -220px;
+}
+.login-first{
+    margin-left: 25px;
+}
+.lofin-first p{
+    font-size: small;
+}
+.box-1{ height: 500px;
+   
+width: 400px; 
+display: flex;
+border: 1px 0 0 1px solid black;
+background-color:transparent;
+align-items: center;
+border-radius: 50px 0 0 50px;
+background-size: cover;
+color: white;
+border-right: none;
+background-color: rgba(0, 0, 0, 0.5);
+}
+label{
+    margin-left: 25px;
+}
+label .a{
+    margin-left: 35px;
+}
+.box-1 button{
+    margin-left: 60px;
+     padding-left: 70px; 
+     padding-right: 70px;
+     border-radius: 20px; 
+     background-color: RGB(249, 103, 56);
+     border-color: RGB(249, 103, 56); 
+     transition: all 0.3s linear;
+}
+input{
+    margin-left: 280px; 
+    border-radius: 20px; 
+    padding-left: 20px;
+     padding-right: 20px;
+}
+
+.form-control{
+    margin-left: 25px;
+    max-width: fit-content;
+}
+.social-icons{
+    margin-bottom: -250px;
+     display: flex; 
+     justify-content: center ;
+      gap: 25px; font-size: 23px; 
+      margin-top: 10px;
+}
+button:hover{
+    cursor: pointer;
+    background-color: blue;
+    color: white;
+    border-color: blue;
+    transform: scale(1.1);
+}
+.box-2{ height: 500px;
+   
+    width: 500px;
+background-color: transparent;
+z-index: -1;
+display: flex;
+border: 1px 0 0 1px solid black;
+align-items: center;
+border-radius: 0 50px 50px 0;
+background-size: cover;
+color: white;
+background-color: rgba(0, 0, 0, 0.7);
+
+}
+.second-page{
+
+}
+.secomd-page h2{
+    color:  RGB(249, 103, 56); 
+    margin-left: 35px;
+     margin-bottom: 0px;
+     margin
+}
+.second-page p{
+    /* margin-left: 35px;  */
+     padding-left: 35px;
+    color: #fff;
+    padding-top: 50px;
+}
+.box-2 button{
+   display: flex;
+   justify-content: center;
+    margin-left: 110px;
+    padding: 7px 99px 7px 99px;
+    margin-top: 30px;
+    border-radius: 24px;
+    color: white;
+      background-color: RGB(249, 103, 56);
+       border-color: RGB(249, 103, 56); 
+       transition: all 0.3s linear;
+}
+
+
